@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Montserrat:wght@500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(45, 39, 39);
+    /*-------- 
+    background-color: rgb(0, 0, 78); */
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+
+header.sticky{
+    padding: 5px 100px;
+    background-color: #fff;
+}
+
+
+
+.logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.6s;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400px;
+    transition: 0.6s;
+}
+
+button{  
+    font-weight: 500px;
+    font-size: 15px;
+    color:rgb(13, 82, 143);
+    text-decoration: none;
+}
+
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 40x;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: hwb(0 9% 78%);
+}
+
+button{
+    padding: 9px 25px;
+    background-color: aqua;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgb(3, 26, 18);
+}
+
+header.sticky ul li a{
+    color: #000;
+}
+header.sticky a {
+    color: #000;
+}
+
+iframe {
+    width: 100%;
+    height: 100vh; /* Make the iframe take up the full viewport height */
+    border: none; /* Remove iframe border if needed */
+}
+
+
+/* testing */
+html{
+    scroll-behavior: smooth;
+}
+
+#what-we-do{
+    background-color: rgb(56, 51, 51);
+}
+#who-we-are{
+    background-color: blueviolet;
+}
+
+#why-choose-us{
+    background-color: #EAE0D5;
+}
+
+/* Example CSS for the footer section */
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+/* Add more styles as needed */
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left h3,
+.footer-right h3 {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    text-align: center;
+    
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #1714d3;
+    border-radius: 50%;
+    background-color: #e7bebe;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    background-color: #b86d6d;
+}
